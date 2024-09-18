@@ -5,5 +5,5 @@
 *.rel
 *.blg
 *.gz
-
-LeoCStein*.pdf
+*.fls
+*.fdb_latexmk

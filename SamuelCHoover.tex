@@ -1,0 +1,415 @@
+\let\nofiles\relax % This is because res says to not emit aux files,
+                   % but lastpage needs aux files.
+\documentclass[margin,line]{res}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{fourier-orns}
+\usepackage{amsmath,amssymb}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{etaremune}
+\usepackage[normalem]{ulem}
+\usepackage[style=iso]{datetime2}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\voffset -25pt
+%\topmargin -.2in
+\headsep 25pt
+\textwidth=6.0in
+\textheight=8.9in
+\itemsep=0in
+\parsep=0in
+
+% Headings
+\pagestyle{fancy}
+\lhead{Samuel C.~Hoover --- Curriculum Vitae (as of \today)}
+\chead{}
+\rhead{\thepage\ of \pageref*{LastPage}}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+% Give hyperref some metadata
+\hypersetup{
+  pdftitle={Samuel C. Hoover — Curriculum Vitae (CV)},
+  pdfauthor={Samuel C. Hoover},
+  pdfsubject={Samuel C. Hoover's academic curriculum vitae (CV)},
+  pdfkeywords={machine learning, chemical engineering, data science, polymer
+physics, biophysics, biomolecular condensates, intrinsically disordered
+proteins}
+}
+
+\begin{document}
+
+\newcommand{\myname}{Samuel C.~Hoover}
+\newlength{\mynamewidth}
+\settowidth{\mynamewidth}{\namefont\myname}
+
+\name{\hspace*{0.5\textwidth}\hspace{-0.5\mynamewidth} \myname \vspace*{.1in}}
+% On the first page, have no header.
+\thispagestyle{empty}
+
+\begin{resume}
+
+	\input{ContactContent.tex}
+
+	% \section{\sc Citizenship}
+	% United States
+
+	\section{\sc Education}
+	 {\bf Ph.D., Chemical Engineering,} UMass Amherst, Amherst, MA, USA \hfill {\bf August 2024}\\
+	\vspace*{-.1in}
+	\begin{itemize}
+		\item[ ] Dissertation Advisor: Prof.\ Murugappan Muthukumar
+		\item[ ] Dissertation Title: {\it Study of charged macromolecule phase behavior using conventional and modern modeling methods}
+	\end{itemize}
+
+	{\bf B.S., Chemical Engineering,} Clarkson University, Potsdam, NY, USA \hfill {\bf May 2018}\\
+	\vspace*{-.1in}
+	\begin{itemize}
+		\item[ ] Degree conferred with distinction.
+		\item[ ] Minors: Mathematics and International \& Cross-Cultural Perspectives
+	\end{itemize}
+
+	\section{\sc Employment}
+	 {\bf Research Assistant,} UMass Amherst, Amherst, MA, USA
+	\hfill {\bf January 2021--Present}\\
+	\\
+	{\bf Teaching Assistant,} UMass Amherst, Amherst, MA, USA
+	\hfill {\bf Fall 2021--2023}\\
+	\\
+	{\bf DTMD Intern,} Triton Systems, Inc., Chelmsford, MA, USA
+	\hfill {\bf June--September 2023}\\
+	\\
+	{\bf Research Assistant,} UMass Amherst, Amherst, MA, USA
+	\hfill {\bf January 2019--December 2020}\\
+	\\
+	{\bf Research Assistant,} Clarkson University, Potsdam, NY, USA
+	\hfill {\bf September 2017--May 2018}\\
+	\\
+	{\bf STEM Educator,} Clarkson University, Potsdam, NY, USA
+	\hfill {\bf September 2017--May 2017}\\
+	\\
+	{\bf Tutor,} Clarkson University, Potsdam, NY, USA
+	\hfill {\bf Fall 2017, Spring 2018}\\
+	\\
+	{\bf Teaching Assistant,} Clarkson University, Potsdam, NY, USA
+	\hfill {\bf  Spring 2016--2017, Fall 2017}\\
+	\\
+	{\bf Global Manufacturing Tech. Intern,} SI Group, Schenectady, NY, USA
+	\hfill {\bf  May--August 2017}\\
+
+	% Added to improve page breaks
+	\vspace{-1em}
+
+	\section{\sc Research Interests}
+	General relativity (GR), gravitation, and astrophysical phenomena which can
+	elucidate gravity.
+	One major theme is pushing numerical and analytical gravitational-wave
+	(GW) predictions to the precision frontier in advance of
+	next-generation observatories.
+	A second major theme is using GWs to test GR against beyond-GR
+	models, in both theory-independent and theory-dependent models.
+	This involves numerical relativity and renormalization methods
+	applied to specific effective field models for beyond-GR theories.
+
+	\section{\sc Honors and Awards}
+	 {\bf PPG Fellowship,} PPG Industries, Inc. \hfill {\bf 2024}\\
+	\\
+	{\bf Teaching Assistant Award,} University of Massachusetts Amherst \hfill {\bf Fall 2022}\\
+	\\
+	{\bf Clarkson Scholarship,} Clarkson University \hfill {\bf Fall 2014--Spring 2018}\\
+	\\
+	{\bf Dean's List,} Clarkson University \hfill {\bf Fall 2014--Fall 2017}\\
+
+	% Added to improve page breaks
+	\vspace{-1em}
+
+	\section{\sc Teaching Experience}
+	 {\bf Teaching Assistant}, University of Massachusetts Amherst
+	\vspace*{.05in}
+	\begin{itemize}
+		\item[ ] CHEM-ENG 401, Senior laboratory \hfill {\bf Falls 2022--2023}
+		\item[ ] CHEM-ENG 338, Separation processes \hfill {\bf Spring 2022}
+		\item[ ] CHEM-ENG 446, Process control \hfill {\bf Fall 2021}
+	\end{itemize}
+	%\newpage{}
+	{\bf Tutor}, Clarkson University
+	\vspace*{.05in}
+	\begin{itemize}
+		\item[ ] STAT 383, Probability and statistics \hfill {\bf Spring 2018}
+		\item[ ] CH 370, Transfer process fundamentals \hfill {\bf Fall 2017}
+	\end{itemize}
+	{\bf Teaching Assistant}, Clarkson University
+	\vspace*{.05in}
+	\begin{itemize}
+		\item[ ] CH 370, Transfer process fundamentals \hfill {\bf Fall 2017}
+		\item[ ] ES 100, Intro to engineering use of computers \hfill {\bf Springs 2016--2017}
+	\end{itemize}
+
+	\section{\sc Professional Activities, Outreach, and Service}
+	 {\bf LISA Consortium, Full member}\hfill{\bf 2020--Present}
+	\begin{itemize}
+		\item[] UMiss LISA Group leader\hfill{\bf 2020--Present}
+	\end{itemize}
+	{\bf Order of the Engineer, member}\hfill{\bf 2018--Present}
+	{\bf Omega Chi Epsilon, member}\hfill{\bf 2016--Present}
+	\vspace*{.05in}
+	\begin{itemize}
+		\item[ ] Delta Chapter President\hfill{\bf 2017--2018}
+	\end{itemize}
+	{\bf American Institute of Chemical Engineers, member}\hfill{\bf 2014--Present}\\
+	\vspace*{.05in}
+	\begin{itemize}
+		\item[]
+		      \href{https://icerm.brown.edu/topical_workshops/tw-24-ses/}
+		      {Simulating Extreme Spacetimes with SpEC and SpECTRE},
+		      ICERM \hfill {\bf August 2024} \\
+		      \hspace*{1em} Week-long international workshop, $\sim$85 participants
+		\item[]
+		      \href{https://www.benasque.org/2024relativity/}
+		      {New frontiers in strong gravity},
+		      Benasque, Spain \hfill {\bf July 2024} \\
+		      \hspace*{1em} Two week international conference, $\sim$70 participants
+		\item[]
+		      \href{https://pcts.princeton.edu/events/2023/nonlinear-aspects-general-relativity}
+		      {Nonlinear Aspects of General Relativity},
+		      Princeton PCTS \hfill {\bf October 2023}\\
+		      \hspace*{1em} Four day workshop, $\sim$100 participants
+		\item[]
+		      \href{https://icerm.brown.edu/events/re-22-f20w1/}
+		      {Numerical Relativity Community Summer School},
+		      ICERM \hfill {\bf August 2022} \\
+		      \hspace*{1em} Week-long international summer school, 150 participants
+		\item[]
+		      \href{https://www.benasque.org/2022relativity/}
+		      {New frontiers in strong gravity},
+		      Benasque, Spain \hfill {\bf July 2022} \\
+		      \hspace*{1em} Two week international conference, 100 participants
+		\item[]
+		      \href{http://www.benasque.org/2018relativity/}
+		      {Numerical Relativity beyond General Relativity},
+		      Benasque, Spain \hfill {\bf June 2018} \\
+		      \hspace*{1em} Week-long international workshop, 59 participants
+		\item[]
+		      34\textsuperscript{th} Pacific Coast Gravity Meeting (PCGM),
+		      Caltech
+		      \hfill {\bf March 2018}\\
+		      \hspace*{1em} Two day conference, $\sim 125$ participants
+		\item[]
+		      \href{http://www.tapir.caltech.edu/~unifying-gr-tests/}
+		      {Unifying Tests of General Relativity},
+		      Caltech \hfill {\bf July 2016} \\
+		      \hspace*{1em} Three day workshop, 52 participants
+	\end{itemize}
+	{\bf Seminar organizer}
+	\vspace*{.05in}
+	\begin{itemize}
+		\item[] TAPIR seminar, Caltech\hfill
+		      {\bf Fall 2015--Spring 2018}
+		\item[] General Relativity Informal Tea-Time Series (GRITTS), MIT\hfill
+		      {\bf Fall 2011--Spring 2012}
+		\item[] MKI Journal Club, MIT\hfill {\bf Fall 2007--Spring 2010}
+	\end{itemize}
+	{\bf Conference session chair; Judge for best student speaker award}
+	\vspace*{.05in}
+	\begin{itemize}
+		\item[]
+		      April APS meeting, NY, NY
+		      \hfill {\bf April 2022}
+		\item[]
+		      Midwest relativity meeting, Grand Rapids, MI
+		      \hfill {\bf October 2019}
+		\item[]
+		      April APS meeting, Columbus, OH
+		      \hfill {\bf April 2018}
+		\item[]
+		      34\textsuperscript{th} Pacific Coast Gravity Meeting (PCGM),
+		      Caltech
+		      \hfill {\bf March 2018}
+		\item[]
+		      33\textsuperscript{rd} Pacific Coast Gravity Meeting (PCGM),
+		      UCSB
+		      \hfill {\bf March 2017}
+		\item[]
+		      ``April'' APS meeting, Washington D.C.
+		      \hfill {\bf January 2017}
+		\item[]
+		      32\textsuperscript{nd} Pacific Coast Gravity Meeting (PCGM),
+		      CSU Fullerton
+		      \hfill {\bf April 2016}
+		\item[]
+		      Theoretical Astrophysics in Southern California (TASC),
+		      CSU Fullerton
+		      \hfill {\bf November 2015}
+	\end{itemize}
+
+	{\bf Journal referee}
+	\vspace*{.05in}\\
+	\hspace*{1em}
+	American Journal of Physics,
+	Classical and Quantum Gravity,
+	Journal of Cosmology and Astroparticle Physics,
+	Journal of Open Source Software,
+	General Relativity and Gravitation,
+	Monthly Notices of the Royal Astronomical Society,
+	Physics Letters~B,
+	Physical Review D,
+	Physical Review Letters,
+	Physical Review X,
+	Reviews of Modern Physics,
+	The Astrophysical Journal Letters,
+	The~Physics~Teacher
+
+	{\bf Agency work}
+	\vspace*{.05in}\\
+	\hspace*{1em}
+	Reviewer for NSF, NASA
+
+		{\bf Outreach}
+	\vspace*{.05in}
+	\begin{itemize}
+
+		\item[] Oxford Science Café
+		      \hfill {\bf April 2019} \\
+		      \hspace*{1em} Lecture: ``The truth about black holes''
+
+		\item[] Guest on the {\it Starts With a Bang} podcast
+		      \hfill {\bf March 25, 2019} \\
+		      \hspace*{1em}
+		      \href{https://soundcloud.com/ethan-siegel-172073460/starts-with-a-bang-42-black-holes-and-gravitation}{Episode 42: Black holes and gravitation}
+
+
+		\item[] Invited speaker for Latin American Webinar on Physics
+		      \hfill {\bf March 13, 2019} \\
+		      \hspace*{1em} \href{https://www.youtube.com/watch?v=7HO07-QtvMI}
+		      {Webinar 75: ``Testing Einstein with numerical relativity''}
+
+		\item[] Caltech astronomy public lecture series speaker
+		      \hfill {\bf March 2018} \\
+		      \hspace*{1em} Lecture: ``The truth about black holes''
+
+		\item[] Astronomy on Tap public lecture series speaker and volunteer
+		      \hfill {\bf 2016--2018} \\
+		      \hspace*{1em} Close to a monthly basis
+
+		\item[] Caltech astronomy public lecture series panelist and emcee
+		      \hfill {\bf 2016--2018} \\
+		      \hspace*{1em} Approximately every three months
+
+		\item[] Invited guest lecture on black holes and gravitational waves \hfill {\bf November 2017} \\
+		      \hspace*{1em} {\it Science of Space and Time}, Hampshire College
+
+		\item[] Invited video Q\&A session, public high school physics class \hfill {\bf June 2017} \\
+		      \hspace*{1em} {\it The Nova Project} school, Seattle
+
+		\item[] Guest on {\it The Titanium Physicists Podcast} \\
+		      \hspace*{1em}
+		      \href{http://titaniumphysicists.brachiolopemedia.com/2019/08/21/episode-80-picturing-the-bach-hole-with-adal-rifai/}{Episode
+			      80: Picturing the Bach Hole}
+		      \hfill
+		      {\bf August 21, 2019} \\
+		      \hspace*{1em} \href{http://titaniumphysicists.brachiolopemedia.com/2016/04/25/episode-64-e-and-n-the-edges-of-einstein/}{Episode 64: The edges of Einstein}
+		      \hfill
+		      {\bf April 25, 2016} \\
+		      \hspace*{1em} \href{http://titaniumphysicists.brachiolopemedia.com/2016/02/01/episode-62-black-bells-with-brent-knopf-and-matt-sheehy/}{Episode 62: Black Bells}
+		      \hfill
+		      {\bf February 1, 2016} \\
+
+		\item[] Quora \href{https://www.quora.com/session/Leo-C-Stein/1}{Q\&A Session} on gravitational waves and first detection
+		      \hfill {\bf February 17, 2016} \\
+		      \hspace*{1em} 83.9k+ views, 20.8k+ followers
+
+		\item[] Invited guest host, public screening of {\it COSMOS} with Q\&A,
+		      \hfill {\bf March/June 2014} \\
+		      \hspace*{1em} Science Cabaret/Cornell
+		\item[] Invited public talk at {\it Frontiers of Cornell Astronomy}, \hfill {\bf November 2013} \\
+		      \hspace*{1em} Cornell Friends of Astronomy
+		\item[] Invited video chat, {\it Topics in Physics} course, \hfill {\bf July 2013} \\
+		      \hspace*{1em} Stanford Education Program for Gifted Youth
+	\end{itemize}
+
+	\section{\sc Computer Skills}
+	%{\bf Languages---}%
+	Expert in {\sc Mathematica}.
+	Proficient in C/C++, Python, Bash, Javascript.
+	Experience in Java, Haskell.
+	Proficient at *nix and HPC.
+	Markup languages: \LaTeX, HTML, CSS, Markdown.
+
+		% {\bf Operating systems---}%
+		% Mac OS, Linux/*nix.
+
+		{\bf Software---}%
+	Most contributions can be found at \url{https://github.com/duetosymmetry}.
+	Member of the {\it Simulating eXtreme Spacetimes} (SXS) collaboration,
+	contributor to the Spectral Einstein Code (SpEC).
+	Member of the {\it Black Hole Perturbation Toolkit}. Author of
+		{\tt qnm} python package (\url{https://github.com/duetosymmetry/qnm}).
+	Core collaborator on {\sc xAct} (\url{http://xact.es}) abstract
+	tensor calculus package for {\sc  Mathematica}. Coauthor
+	of {\sc xTerior} package for exterior differential geometry under
+		{\sc xAct}. Co-maintainer of community contributions at
+	\url{http://contrib.xact.es}. Developed
+	\href{https://chrome.google.com/webstore/detail/arxiv-keys/fkjjdlbhliopfhgddlpoggpmpgjfaojd}{arXiv-keys}
+	browser extension/add-on for Chrome/Firefox.
+	Author of \href{https://ctan.org/pkg/orcidlink}{\tt orcidlink} and coauthor of \href{https://ctan.org/pkg/gridpapers}{\tt gridpapers} packages for \LaTeX.
+
+	% Twiddle this for spacing
+	% \newpage
+
+	\ifx\nopubs\undefined
+		\input{PubsContent.tex}
+	\else
+		%
+	\fi
+
+	\newpage{}
+
+	\section{\sc References}
+	\vspace*{.05in}
+	\parbox{\textwidth}{%
+		{\bf Scott~A.~Hughes,} Professor of Physics, Massachusetts Institute of Technology \\
+		77 Massachusetts Avenue, Bldg.\ 37-602A \\
+		Cambridge, MA 02139 \\
+		email: \href{mailto:sahughes@mit.edu}{sahughes@mit.edu} \\
+		office phone: \href{tel:1-617-258-8523}{1-617-258-8523}}
+	\par
+	\parbox{\textwidth}{%
+		{\bf Nico~Yunes,} Professor of Physics, University of Illinois\\
+		249 Loomis Laboratory\\
+		1110 West Green Street\\
+		Urbana, IL 61801-3003\\
+		email: \href{mailto:nyunes@illinois.edu}{nyunes@illinois.edu} \\
+		office phone: \href{tel:1-814-883-2069}{1-814-883-2069}}
+	\par
+	\parbox{\textwidth}{%
+	{\bf {\'E}anna~{\'E}.~Flanagan,} Professor of Physics and Astronomy,
+	Cornell University\\
+	463 Physical Sciences Building\\
+	Ithaca, NY 14853\\
+	email: \href{mailto:eef3@cornell.edu}{eef3@cornell.edu}\\
+	office phone: \href{tel:1-607-255-6534}{1-607-255-6534}}
+	\par
+	\parbox{\textwidth}{%
+		{\bf Yanbei~Chen,} Professor of Physics,
+		California Institute of Technology\\
+		TAPIR 350-17, Caltech\\
+		1200 E.\ California Boulevard\\
+		Pasadena, CA 91125\\
+		email: \href{mailto:yanbei@caltech.edu}{yanbei@caltech.edu}
+		(please send correspondence to \href{mailto:joann@caltech.edu}{joann@caltech.edu})
+		\\
+		office phone: \href{tel:1-626-395-4258}{1-626-395-4258}}
+
+\end{resume}
+\end{document}
+
+% Local Variables:
+% mode: latex
+% End:
