@@ -23,9 +23,3 @@ themselves):
 with email address, web site, and LinkedIn
 - [PubsContent.tex](PubsContent.tex): Contains list of publications,
 - [TalksContent.tex](TalksContent.tex): Contains list of talks.
-
-If you're going to use this repo as a starting point for your own CV, you'll
-probably have to change a bunch of filenames. If you're going to keep it on
-GitHub and want the GitHub action that builds the PDFs (badge links above) to
-work, then you'll want to change the corresponding file names in the
-[.github/workflows/pdflatex.yml](.github/workflows/pdflatex.yml) workflow file.
