@@ -4,6 +4,7 @@
 \usepackage[colorlinks=true]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{changepage}
 \usepackage{microtype}
 \usepackage{fourier-orns}
 \usepackage{amsmath,amssymb}
@@ -58,9 +59,6 @@ proteins}
 
 	\input{ContactContent.tex}
 
-	% \section{\sc Citizenship}
-	% United States
-
 	\section{\sc Education}
 	 {\bf Ph.D., Chemical Engineering,} UMass Amherst, Amherst, MA, USA \hfill {\bf August 2024}\\
 	\vspace*{-.1in}
@@ -79,34 +77,88 @@ proteins}
 
 	\section{\sc Employment}
 	 {\bf Research Assistant,} UMass Amherst, Amherst, MA, USA
-	\hfill {\bf January 2021--Present}\\
-	\\
-	{\bf Teaching Assistant,} UMass Amherst, Amherst, MA, USA
-	\hfill {\bf Fall 2021--2023}\\
-	\\
+	\hfill {\bf January 2019--Present}
+	\begin{adjustwidth}{1.5em}{0pt}
+		{\bf Lab of Prof. Murugappan Muthukumar}\\
+		The overarching goal of my current doctoral research is to use simpler
+		synthetic analogs to uncover the fundamental physics that govern biological
+		self-assemblies like biomolecular condensates ({\bf Project 2}) and protein
+		aggregations ({\bf Projects 1 \& 3}). Additionally managed group
+		high-performance GPU computing cluster and static HTML webpage.
+		\\
+		{\bf Project 1~\textendash{} Learning the sequence effects of microphase
+		separation transition}
+		\begin{itemize}
+			\item Created a >260k row dataset from theoretical calculations and
+			      cleaned 3\% using physics-informed filtering
+			\item Developed novel molecular modeling method that uniquely captured
+			      the sequence-specificity of each macromolecule
+			\item Trained a gradient-boosted decision trees model to accurately
+			      predict microphase separation transition ($R^{2} > 0.9$)
+			\item Quantified the effects of sequence on self-assembly, found
+			      second-order salt-dependent interactions on self-assembly using SHAP
+			      values
+		\end{itemize}
+		{\bf Project 2~\textendash{} Theory of polyzwitterion-polyelectrolyte
+		complexation}
+		\begin{itemize}
+			\item Generalized theory to account for the dynamic phase stability of
+			      polyzwitterion-polyelectrolyte complexes
+			\item Performed a quantitative assessment of phase stability of complexes
+			      with varying molecular structures, chemistries, and solution conditions
+			\item Refactored group legacy free energy minimization script to
+			      achieve a 10x execution time speedup
+		\end{itemize}
+		{\bf Project 3~\textendash{} Phase behavior of polydipoles}
+		\begin{itemize}
+			\item Computed phase diagrams of complexation between polymers that
+			      contain an electric dipole on each monomer
+			\item Determined salt sensitivity with varying electrostatic dipolar
+			      interaction strengths
+		\end{itemize}
+	\end{adjustwidth}
+	\begin{adjustwidth}{1.5em}{0pt}
+		{\bf Lab of Prof. Peng Bai}\\
+		The goal of this research was utilize computer vision to aid virtual
+		screening of nanoporous materials like zeolites. Additionally computed
+		phase diagrams and forcefield parameters for small organic molecules.
+		\\
+		{\bf Project 1~\textendash{} Convolutional neural networks for virtual
+		screening}
+		\begin{itemize}
+			\item Extracted, loaded, and transformed volumetric data (> 1 GB) using
+			      HDF5 wrapper for Python and custom PyTorch classes
+			\item Developed deep learning pipeline with experiment logging and
+			      analysis
+			\item Found simple geometric descriptors for zeolites do not provide
+			      reliable predictions for their adsorption properties
+		\end{itemize}
+	\end{adjustwidth}
 	{\bf DTMD Intern,} Triton Systems, Inc., Chelmsford, MA, USA
-	\hfill {\bf June--September 2023}\\
-	\\
-	{\bf Research Assistant,} UMass Amherst, Amherst, MA, USA
-	\hfill {\bf January 2019--December 2020}\\
-	\\
+	\hfill {\bf June--September 2023}
+	\begin{adjustwidth}{1.5em}{0pt}
+		In the Disruptive Technology \& Materials Design (DTMD) group, performed
+		electromagnetic modeling on COMSOL for
+		a~\href{https://legacy.www.sbir.gov/sbirsearch/detail/2234557}{Phase II
+			SBIR project} for the DHS.
+		\begin{itemize}
+			\item Optimized induction heating coil to selectively desorb 5+ volatile
+			      organic compounds
+			\item Developed RLC circuit model for sensitive (< 1 ppm) molecular sensing
+			      device
+			\item Determined state-of-the-art breath volatile organic compounds
+			      analysis from literature, provided recommendations for signal
+			      acquisition and processing
+		\end{itemize}
+	\end{adjustwidth}
 	{\bf Research Assistant,} Clarkson University, Potsdam, NY, USA
 	\hfill {\bf September 2017--May 2018}\\
 	\\
 	{\bf STEM Educator,} Clarkson University, Potsdam, NY, USA
 	\hfill {\bf September 2017--May 2017}\\
 	\\
-	{\bf Tutor,} Clarkson University, Potsdam, NY, USA
-	\hfill {\bf Fall 2017, Spring 2018}\\
-	\\
-	{\bf Teaching Assistant,} Clarkson University, Potsdam, NY, USA
-	\hfill {\bf  Spring 2016, Fall 2017}\\
-	\\
 	{\bf Global Manufacturing Tech. Intern,} SI Group, Schenectady, NY, USA
 	\hfill {\bf  May--August 2017}\\
-	\\
-	{\bf Senior Teaching Assistant,} Clarkson University, Potsdam, NY, USA
-	\hfill {\bf Spring 2017}\\
 
 	% Added to improve page breaks
 	\vspace{-1em}
